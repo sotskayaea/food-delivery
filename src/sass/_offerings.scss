@@ -1,0 +1,88 @@
+.offerings-section{
+    background-color: $color-yellow-main;
+    
+    
+}
+.offerings-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 16px;
+    background-image: url(../images/offerings/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: left 16px center;
+}
+
+.offerings-right-wrap{
+    width: 600px;
+    margin-left: auto;
+}
+.offerings-title{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+}
+.offerings-desc{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.offerings-list{
+    display: flex;
+    gap: 65px;
+}
+
+.offerings-item{
+    width: 253px;
+}
+
+.offerings-icon-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: $color-white;
+    color: $color-dark-green;
+}
+
+.offerings-icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+.offerings-subtitle{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.offerings-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.offerings-btn{
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px 22px;
+    border: none;
+    background: $color-white;
+    border-radius: 30px;
+    border: 2px solid $color-dark-green;
+    margin-top: 60px;
+    &:hover, &:focus{
+        background-color: $color-button-green;
+        border-color: $color-button-green;
+    }
+}
