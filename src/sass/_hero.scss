@@ -1,0 +1,38 @@
+
+.hero-container{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url(../images/hero/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+.hero-text-container{
+    width: 516px;
+    
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.hero-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+
+.hero-btn{
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 6px 18px;
+    border: none;
+    background: $color-button-green;
+    border-radius: 30px;
+    &:hover, &:focus{
+        background-color: $color-yellow-main;
+    }
+}
