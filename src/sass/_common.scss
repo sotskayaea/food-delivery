@@ -1,1 +1,23 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+
+    color: var(--color-black);
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
