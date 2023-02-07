@@ -8,12 +8,15 @@
 
 body {
     font-family: Roboto, sans-serif;
-
     color: var(--color-black);
 }
 
 .list {
     list-style: none;
+}
+
+.link{
+    text-decoration: none;
 }
 
 .container {
