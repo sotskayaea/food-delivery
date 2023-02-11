@@ -38,6 +38,7 @@
 }
 .favorites-item:hover {
         transform: scale(1.1);
+        border-color: $color-button-green;
     }
 .favorites-img{
     border-radius: 50%;
