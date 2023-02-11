@@ -1,15 +1,24 @@
-
+.hero-section{
+padding-top: 27px;
+padding-bottom: 27px;
+}
 .hero-container{
-    padding-top: 160px;
-    padding-bottom: 160px;
-    background-image: url(../images/hero/hero.jpg);
-    background-repeat: no-repeat;
-    background-position: right 16px center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .hero-text-container{
     width: 516px;
     
 }
+.hero-bg-img{
+    width: 560px;
+    height: 560px;
+ background-image: url(../images/hero/hero.jpg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
 
 .hero-title{
     font-weight: 700;
